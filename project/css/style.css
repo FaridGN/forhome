@@ -1,0 +1,23 @@
+@media screen and (max-width: 390px) {
+    nav{
+        width: 380px;
+        margin: 0 auto;
+    }
+    .logo{
+        width:160px;
+        margin-left: 35px;
+        margin-top: 25px;
+        height: 110px;
+    }
+    .mobmenu{
+        width:95px;
+        height:95px;
+        margin-right: 20px;
+        float:right;
+    }
+}
+@media screen and (min-width: 1200px) {
+    .mobmenu{
+        display:none;
+    }
+}
